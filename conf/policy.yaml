@@ -1,0 +1,15 @@
+---
+- appname: app1
+  cpus: 0.2
+  memory: 128 MB
+  storage: 100 MB
+  networking: false
+  readableServices:
+   - DeviceInfo
+   - LinkInfo
+   - Statistics
+   - ProactiveFlowEntry
+  writableServices:
+   - ProactiveFlowEntry
+
+
